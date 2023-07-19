@@ -1,9 +1,15 @@
 import de.beck.java.mail.Mail;
 import de.beck.java.sender.Sender;
+import de.beck.java.ui.TerminalUI;
 
 public class Main {
     public static void main(String[] args) {
-        test();
+        //test();
+        try {
+            TerminalUI.startUI();
+        } catch(Exception ex) {
+            System.out.println(ex.getMessage());
+        }
     }
 
     private static void test() {

@@ -10,7 +10,7 @@ public class SMTPConnection {
 
     private static final String FROM = "java-mail@beck-homes.com";
     private static final String USERNAME = "java-mail@beck-homes.com";
-    private static final String PASSWORD = "XXXXX";
+    private static final String PASSWORD = "srh_mail_2023";
     private static final String HOST = "mail.beck-homes.com";
     private static final int PORT = 465;
 
