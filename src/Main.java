@@ -1,12 +1,14 @@
 import de.beck.java.mail.Mail;
 import de.beck.java.sender.Sender;
+import de.beck.java.ui.SwingUI;
 import de.beck.java.ui.TerminalUI;
 
 public class Main {
     public static void main(String[] args) {
         //test();
         try {
-            TerminalUI.startUI();
+            //TerminalUI.startUI();
+            SwingUI ui = new SwingUI();
         } catch(Exception ex) {
             System.out.println(ex.getMessage());
         }
